@@ -1,0 +1,32 @@
+
+.nav-item img {
+  width: 250px;
+  height: auto;
+  margin-right: 30px;
+}
+.navbar-brand {
+  color: antiquewhite;
+  font-size: 30px;
+}
+.signup {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 30px;
+  border-radius: 100px;
+  text-align: left;
+  width: 500px;
+  height: auto;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    
+}
+.avatar:hover {
+    transform: scale(1.1);
+}
+.avatar.selected {
+    border: 5px solid black; /* Seçili avatarı vurgula */
+}

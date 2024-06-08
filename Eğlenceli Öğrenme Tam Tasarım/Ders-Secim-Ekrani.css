@@ -1,0 +1,9 @@
+.nav-item img {
+    width: 250px;
+    height: auto;
+    margin-right: 30px;
+  }
+  .navbar-brand {
+    color: antiquewhite;
+    font-size: 30px;
+  }

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eğlenceli Öğrenme Platformu</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Giris-Sayfasi.css" />
+    <script src="Giris-Sayfasi.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <img
+            src="/images/logo.png"
+            alt="Logo"
+            width="100"
+            height="100"
+            class="d-inline-block align-text-center"
+          />
+          Eğlenceli Öğrenme Platformu
+        </a>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="Giris-Sayfasi.html">
+              <img
+                style="border-radius: 35px"
+                src="images/anasayfa.png"
+                alt="homepage"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Konular.html">
+              <img
+                style="border-radius: 35px"
+                src="images/konular.png"
+                alt="content"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Hakkimizda.html">
+              <img
+                style="border-radius: 35px"
+                src="images/hakkımızda.png"
+                alt="about-us"
+            /></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Bize-ulasin.html">
+              <img
+                style="border-radius: 35px"
+                src="images/Bize-ulasin.png"
+                alt="contact"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar Bitiş -->
+    <!-- Giris Formu Baslangıc -->
+    <div
+      class="container-fluid"
+      style="
+        background-image: url(/images/Home-Page-Background.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      "
+    >
+      <div
+        class="btn-group btn-group-lg mb-3"
+        role="group"
+        aria-label="Large button group"
+      >
+        <button
+          type="button"
+          class="btn btn-light"
+          data-bs-toggle="collapse"
+          data-bs-target="#turkceContent"
+          aria-expanded="false"
+          aria-controls="turkceContent"
+        >
+          Türkçe
+        </button>
+        <button
+          type="button"
+          class="btn btn-warning"
+          data-bs-toggle="collapse"
+          data-bs-target="#ingilizceContent"
+          aria-expanded="false"
+          aria-controls="ingilizceContent"
+        >
+          İngilizce
+        </button>
+        <button
+          type="button"
+          class="btn btn-danger"
+          data-bs-toggle="collapse"
+          data-bs-target="#matematikContent"
+          aria-expanded="false"
+          aria-controls="matematikContent"
+        >
+          Matematik
+        </button>
+        <button
+          type="button"
+          class="btn btn-dark"
+          data-bs-toggle="collapse"
+          data-bs-target="#fenbilimleriContent"
+          aria-expanded="false"
+          aria-controls="fenbilimleriContent"
+        >
+          Fen Bilimleri
+        </button>
+        <button
+          type="button"
+          class="btn btn-success"
+          data-bs-toggle="collapse"
+          data-bs-target="#sosyalbilgilerContent"
+          aria-expanded="false"
+          aria-controls="sosyalbilgilerContent"
+        >
+          Sosyal Bilgiler
+        </button>
+      </div>
+      <!-- Collapsible content -->
+      <div class="collapse" id="turkceContent">
+        <div class="card card-body">
+          <a
+            href="https://www.youtube.com/watch?v=VUomo9XDT48"
+            class="btn btn-light"
+            role="button"
+            target="_blank"
+          >
+            <b>Cümlede Anlam</b>
+          </a>
+        </div>
+        <div class="card card-body">
+          <a
+            href="https://www.youtube.com/watch?v=RimjUZLa4XE"
+            class="btn btn-light"
+            role="button"
+            target="_blank"
+          >
+            <b>Sözcükte Anlam</b>
+          </a>
+        </div>
+        <div class="card card-body">
+          <a
+            href="https://www.youtube.com/watch?v=QoUM0EU-D9o"
+            class="btn btn-light"
+            role="button"
+            target="_blank"
+          >
+            <b>Parçada Anlam</b>
+          </a>
+        </div>
+        <div class="card card-body">
+          <a
+            href="https://www.youtube.com/watch?v=BEJd7j3nJ48"
+            class="btn btn-light"
+            role="button"
+            target="_blank"
+          >
+            <b>Yazım Bilgisi</b>
+          </a>
+        </div>
+        <div class="card card-body">
+          <a
+            href="https://www.youtube.com/watch?v=T1Ms-EgXUQg"
+            class="btn btn-light"
+            role="button"
+            target="_blank"
+          >
+            <b>Edebi Türler ve Ses Sanatları</b>
+          </a>
+        </div>
+      </div>
+      <div class="collapse" id="ingilizceContent">
+        <div class="card card-body">
+          <div class="card card-body">
+            <a
+              href="https://www.youtube.com/watch?v=IQ_aD7dYbFI"
+              class="btn btn-light"
+              role="button"
+              target="_blank"
+            >
+              <b>Fun with Science Jobs</b>
+            </a>
+          </div>
+          <div class="card card-body">
+            <a
+              href="https://www.youtube.com/watch?v=LB4m1nisT5o"
+              class="btn btn-light"
+              role="button"
+              target="_blank"
+            >
+              <b>My Clothes My Friends</b>
+            </a>
+          </div>
+          <div class="card card-body">
+            <a
+              href="https://www.youtube.com/watch?v=8FPvbnYbs2o"
+              class="btn btn-light"
+              role="button"
+              target="_blank"
+            >
+              <b>Food and Drinks</b>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="collapse" id="matematikContent">
+        <div class="card card-body">
+          <a
+            href="https://www.youtube.com/watch?v=vEyg_VZOgeg"
+            class="btn btn-light"
+            role="button"
+            target="_blank"
+          >
+            <b>Kesirlerde İşlemler</b>
+          </a>
+        </div>
+        <div class="card card-body">
+          <a
+            href="https://www.youtube.com/watch?v=vEyg_VZOgeg&pp=ygUadG9uZ3XDpyBha2FkZW1pIDQuIHPEsW7EsWY%3D"
+            class="btn btn-light"
+            role="button"
+            target="_blank"
+          >
+            <b>Zaman Ölçme</b>
+          </a>
+        </div>
+        <div class="card card-body">
+          <a
+            href="https://www.youtube.com/watch?v=SlZlqQfKyK8"
+            class="btn btn-light"
+            role="button"
+            target="_blank"
+          >
+            <b>Geometrik Cisimler ve Şekiller</b>
+          </a>
+        </div>
+        <div class="card card-body">
+          <a
+            href="https://www.youtube.com/watch?v=uLsdNLG_ZDQ"
+            class="btn btn-light"
+            role="button"
+            target="_blank"
+          >
+            <b>Uzunluk Ölçme</b>
+          </a>
+        </div>
+        <div class="card card-body">
+          <a
+            href="https://www.youtube.com/watch?v=KmX0r0S7FmQ"
+            class="btn btn-light"
+            role="button"
+            target="_blank"
+          >
+            <b>Çevre Ölçme</b>
+          </a>
+        </div>
+        <div class="card card-body">
+          <a
+            href="https://www.youtube.com/watch?v=OvFHGZ56FmY&pp=ygUadG9uZ3XDpyBha2FkZW1pIDQuIHPEsW7EsWY%3D"
+            class="btn btn-light"
+            role="button"
+            target="_blank"
+          >
+            <b>Alan Ölçme</b>
+          </a>
+        </div>
+        <div class="card card-body">
+          <a
+            href="https://www.youtube.com/watch?v=xnEypOXEZIk&pp=ygUadG9uZ3XDpyBha2FkZW1pIDQuIHPEsW7EsWY%3D"
+            class="btn btn-light"
+            role="button"
+            target="_blank"
+          >
+            <b>Tartma</b>
+          </a>
+        </div>
+        <div class="card card-body">
+          <a
+            href="https://www.youtube.com/watch?v=Za5HdlJZZIU"
+            class="btn btn-light"
+            role="button"
+            target="_blank"
+          >
+            <b>Sıvı Ölçme</b>
+          </a>
+        </div>
+      </div>
+      <div class="collapse" id="fenbilimleriContent">
+        <div class="card card-body">
+          <div class="card card-body">
+            <a
+              href="https://www.youtube.com/watch?v=D0_AQFNgrDk"
+              class="btn btn-light"
+              role="button"
+              target="_blank"
+            >
+              <b>Maddenin Özellikleri/ Maddenin Doğası</b>
+            </a>
+          </div>
+          <div class="card card-body">
+            <a
+              href="https://www.youtube.com/watch?v=YiPE8JV6QHI"
+              class="btn btn-light"
+              role="button"
+              target="_blank"
+            >
+              <b>Aydınlatma ve Ses Teknolojileri</b>
+            </a>
+          </div>
+          <div class="card card-body">
+            <a
+              href="https://www.youtube.com/watch?v=L3XMD3aOb-M"
+              class="btn btn-light"
+              role="button"
+              target="_blank"
+            >
+              <b>İnsan ve Çevre</b>
+            </a>
+          </div>
+          <div class="card card-body">
+            <a
+              href="https://www.youtube.com/watch?v=DkoOgGSKe5s"
+              class="btn btn-light"
+              role="button"
+              target="_blank"
+            >
+              <b>Basit Elektrik Devreleri</b>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="collapse" id="sosyalbilgilerContent">
+        <div class="card card-body">
+          <div class="card card-body">
+            <a
+              href="https://www.youtube.com/watch?v=wNtGXkIX1po"
+              class="btn btn-light"
+              role="button"
+              target="_blank"
+            >
+              <b>Bilim, Teknoloji ve Toplum</b>
+            </a>
+          </div>
+          <div class="card card-body">
+            <a
+              href="https://www.youtube.com/watch?v=ICIUrgLEkFQ"
+              class="btn btn-light"
+              role="button"
+              target="_blank"
+            >
+              <b>Üretim, Dağıtım ve Tüketim</b>
+            </a>
+          </div>
+          <div class="card card-body">
+            <a
+              href="https://www.youtube.com/watch?v=WmYTLQbwenM"
+              class="btn btn-light"
+              role="button"
+              target="_blank"
+            >
+              <b>Etkin Vatandaşlık</b>
+            </a>
+          </div>
+          <div class="card card-body">
+            <a
+              href="https://www.youtube.com/watch?v=2pdHsNAIR_E"
+              class="btn btn-light"
+              role="button"
+              target="_blank"
+            >
+              <b>Küresel Bağlantılar</b>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
